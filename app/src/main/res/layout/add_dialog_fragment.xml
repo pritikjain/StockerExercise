@@ -1,0 +1,90 @@
+<!-- TODO: Update blank fragment layout -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+
+        >
+
+        <TextView
+            android:id="@+id/add_stock_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/top_margin_titile"
+
+            android:gravity="center"
+            android:text="@string/add_stock"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/stock_symbol_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stock_symbol_text"
+
+
+            />
+
+        <EditText
+            android:id="@+id/stock_name"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:layout_alignTop="@id/stock_symbol_text"
+            android:layout_marginLeft="20dp"
+            android:textSize="24sp"
+            android:layout_toRightOf="@id/stock_symbol_text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/notify_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/notify_once_when_text" />
+
+        <com.stocker.android.NumberPicker
+            android:id="@+id/stock_tracking_threshold"
+            android:layout_marginLeft="20dp"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            app:value="2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="@string/per_price_changes_text" />
+    </LinearLayout>
+</LinearLayout>
+
+
+
+

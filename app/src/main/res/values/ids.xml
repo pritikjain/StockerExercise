@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="dummy" type="id" />
+    <item name="number_inc" type="id" />
+    <item name="number_dec" type="id" />
+    <item name="value" type="id" />
+</resources>

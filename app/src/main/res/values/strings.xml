@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Stocker</string>
+    <string name="add_stock_text">add stocks to track</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">STOCKER</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="add_stock">add stock</string>
+    <string name="edit_stock">edit stock</string>
+
+    <string name="stock_symbol_text">stock symbol</string>
+    <string name="notify_once_when_text">notify once when</string>
+    <string name="per_price_changes_text">% price changes</string>
+    <string name="add">add</string>
+    <string name="update">update</string>
+    <string name="cancel_buton">cancel</string>
+    <string name="stock_value">$100</string>
+    <string name="stock_name">Stock</string>
+    <string name="last_updated">last updated : %1$d %2$s</string>
+    <string name="no_symbol_was_added">Empty symbol could not be added</string>
+    <string name="never_refreshed">has not sync\'d</string>
+    <string name="notification_content">%1$s has %3$s to $%4$s %5$s</string>
+    <string name="risen">risen</string>
+    <string name="dropped">dropped</string>
+</resources>

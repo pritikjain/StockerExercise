@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/content_item_padding">
+    <TextView
+        android:id="@+id/stock_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+
+        android:layout_alignParentLeft="true"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:clickable="false"
+        android:focusable="false"
+        android:ellipsize="end"
+        android:focusableInTouchMode="false"
+        android:text="@string/stock_name"/>
+
+
+    <ImageButton
+    android:id="@+id/delete_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:clickable="false"
+    android:layout_alignParentRight="true"
+    android:src="@drawable/dustbin_32"/>
+
+    <TextView
+        android:id="@+id/stock_value"
+        android:layout_width="wrap_content"
+        android:maxWidth="@dimen/max_width_value"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@id/delete_button"
+        android:clickable="false"
+        android:focusableInTouchMode="false"
+        android:focusable="false"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:text="@string/stock_value"/>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+   >
+
+
+    <EditText
+        android:id="@id/value"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:singleLine="true"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/number_dec"
+        android:gravity="center_horizontal|center_vertical"
+        android:background="@android:color/transparent"/>
+
+    <TextView
+        android:id="@id/number_inc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:includeFontPadding="false"
+        android:layout_alignParentTop="true"
+        android:minWidth="20dp"
+        android:text="&#xf0de;"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@id/number_dec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@id/value"
+
+        android:text="&#xf0dd;"
+        android:minWidth="20dp"
+        android:textSize="20sp" />
+
+</merge>
